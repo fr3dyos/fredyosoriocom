@@ -80,4 +80,5 @@ credentials/
 *.pid
 *.seed
 *.pid.lock
+*.pdf
 
