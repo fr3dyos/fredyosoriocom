@@ -1,0 +1,349 @@
+{
+  "meta.title": "Fredy Osorio - R&D Engineer",
+  "brand": "Fredy Osorio",
+  "nav.about": "About",
+  "nav.skills": "Skills",
+  "nav.languages": "Languages",
+  "nav.experience": "Experience",
+  "nav.projects": "Projects",
+  "nav.publications": "Publications",
+  "nav.education": "Education",
+  "nav.contact": "Contact",
+  "nav.languageLabel": "Language",
+  "nav.patents_short": "Patents",
+  "hero.eyebrow": "Portfolio",
+  "hero.role": "Python Developer · R&D Engineer Specialist",
+  "hero.tagline": "Mechatronic Engineer · MSc Mechanical Engineering · MBA AI & Data Science",
+  "hero.location": "Rio de Janeiro, Brazil",
+  "hero.photo.alt": "Portrait of Fredy Osorio",
+  "hero.availability": "Open to Senior Roles",
+  "hero.cta.email": "Contact Me",
+  "hero.cta.github": "View GitHub",
+  "about.title": "Professional Summary",
+  "about.body": "Senior engineer and applied scientist with 10+ years of experience designing, validating, and scaling complex technical systems across industry and research environments. Strong Python background spanning data analysis, computer vision, ML pipelines, experimental workflow automation, and decision-support tooling. Proven record leading R&D initiatives, structuring data workflows, integrating heterogeneous data sources, and translating messy real-world signals into reliable technical outputs. Brings an unusual combination of engineering rigor, product mindset, and hands-on delivery that fits data-intensive roles requiring problem solving, ownership, and cross-functional collaboration.",
+  "skills.title": "Core Skills",
+  "skills.programming.title": "Programming",
+  "skills.programming.body": "Python, C, C++, C#, MATLAB, LabVIEW, basic SQL concepts, Git/GitHub.",
+  "skills.data.title": "Data & ML",
+  "skills.data.body": "Data analysis, data preprocessing, computer vision pipelines, image classification, transfer learning, TensorFlow, OpenCV, experimental data workflows.",
+  "skills.engineering.title": "Engineering Systems",
+  "skills.engineering.body": "Instrumentation, automation, control systems, data acquisition systems, validation testing, reliability testing.",
+  "skills.modeling.title": "Modeling & Simulation",
+  "skills.modeling.body": "COMSOL Multiphysics, mathematical modeling, experimental design, signal analysis.",
+  "skills.leadership.title": "Leadership",
+  "skills.leadership.body": "R&D project leadership, laboratory setup, stakeholder communication, IP/patent coordination, cross-functional teamwork.",
+  "languages.title": "Languages & Programming",
+  "languages.spoken.title": "Spoken Languages",
+  "languages.spoken.note": "Self-reported proficiency (CEFR).",
+  "languages.programming.title": "Programming & Tools",
+  "languages.programming.note": "Self-assessed, daily production vs. occasional use.",
+  "experience.title": "Professional Experience",
+  "experience": [
+    {
+      "company": "BioRen Technology",
+      "role": "Lead of Technology Development / Research Engineer",
+      "place": "Rio de Janeiro, Brazil",
+      "period": "Jun 2023 — Jun 2026",
+      "domain": "R&D, AI, product validation, technical leadership",
+      "bullets": [
+        "Led a two-engineer team developing the DNV-certified BioRen AFS HN2 antifouling system in an industrial R&D setting.",
+        "Designed and improved data-driven experimental workflows combining instrumentation, control, and analysis for validation and product development.",
+        "Built a computer vision pipeline for biofouling assessment using drone and ROV imagery, supporting classification and R&D decision making with Python-based workflows.",
+        "Structured laboratory processes and data flows while founding the Electronics Laboratory and helping create the Biotechnology Research Laboratory.",
+        "Planned and executed validation and reliability test campaigns, improving equipment robustness and reducing technical risk.",
+        "Coordinated technical documentation, compliance contributions, and IP/patent activities linked to product development."
+      ]
+    },
+    {
+      "company": "Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
+      "role": "Technical Specialist II",
+      "place": "Rio de Janeiro, Brazil",
+      "period": "Oct 2017 — Jun 2023",
+      "domain": "Experimental systems, automation, data acquisition",
+      "bullets": [
+        "Developed specialized instrumentation and automation systems for five experimental physics laboratories (magnetometry, scanning magnetic microscopy, rock characterization).",
+        "Designed acquisition and processing workflows in MATLAB and laboratory software, connecting measurement hardware to digital analysis pipelines.",
+        "Supported advanced research through robust measurement systems, signal stability improvements, and repeatable data collection processes.",
+        "Contributed to scientific output across magnetometry, scanning magnetic microscopy, and rock characterization, with multiple peer-reviewed publications."
+      ]
+    },
+    {
+      "company": "GMAS",
+      "role": "Mechatronic Engineer",
+      "place": "Bogotá, Colombia",
+      "period": "Mar 2017 — Sep 2017",
+      "domain": "Open-source automation, geological imaging support",
+      "bullets": [
+        "Contributed to the OneGeo open-source petrography platform for geological sample analysis.",
+        "Developed automation solutions using Arduino, Python, and KiCad, with version control through GitHub.",
+        "Supported image-related and experimental workflows in a geoscience research environment."
+      ]
+    },
+    {
+      "company": "Independent Consultant",
+      "role": "Mechatronics / Instrumentation Consultant",
+      "place": "Rio de Janeiro, Brazil",
+      "period": "Jul 2016 — Present",
+      "domain": "Technical consulting and analytical tooling",
+      "bullets": [
+        "Develop scripts and analytical routines in Python, MATLAB, and LabVIEW for engineering data analysis and automation.",
+        "Deliver end-to-end technical solutions from concept design and circuit development to implementation and validation.",
+        "Support graduate-level projects involving modeling, measurement, and digital processing workflows."
+      ]
+    },
+    {
+      "company": "COPPE / UFRJ",
+      "role": "Development Engineer / Researcher",
+      "place": "Rio de Janeiro, Brazil",
+      "period": "Mar 2014 — Mar 2016",
+      "domain": "Robotics, simulation, applied research",
+      "bullets": [
+        "Developed naval robotic systems and mechatronic control strategies in a research environment.",
+        "Conducted modeling, simulation, and validation studies for dynamic mechanical systems."
+      ]
+    }
+  ],
+  "projects.title": "Open-Source Projects",
+  "projects.note": "A selection of 6 featured projects — instrumentation, computer vision, and control hardware, plus an AI/ML capstone.",
+  "projects.githubLabel": "View on GitHub",
+  "projects": [
+    {
+      "name": "Geological Sample Image Classification (Transfer Learning)",
+      "description": "ResNet50-based classification of geological sample images — capstone of the MBA, explores AI/ML pipelines.",
+      "url": "https://github.com/fr3dyos/Classificacao-de-imagens-de-amostras-geologicas-usando-transfer-learning",
+      "language": "Jupyter Notebook",
+      "category": "AI / ML"
+    },
+    {
+      "name": "serialPortUI",
+      "description": "Python interface for serial-port instrumentation and lab hardware control.",
+      "url": "https://github.com/fr3dyos/serialPortUI",
+      "language": "Python",
+      "category": "Instrumentation"
+    },
+    {
+      "name": "stichingPanorama",
+      "description": "Image-stitching / panoramic composition pipeline for experimental and field imagery.",
+      "url": "https://github.com/fr3dyos/stichingPanorama",
+      "language": "Python",
+      "category": "Computer Vision"
+    },
+    {
+      "name": "CoilCharacterization",
+      "description": "Instrumentation routines for characterizing magnetic coils and related hardware.",
+      "url": "https://github.com/fr3dyos/CoilCharacterization",
+      "language": "Python",
+      "category": "Instrumentation"
+    },
+    {
+      "name": "pizzacontroller",
+      "description": "Controller firmware for the LOEM-PUC pizza-style sample stage (C++).",
+      "url": "https://github.com/fr3dyos/pizzacontroller",
+      "language": "C++",
+      "category": "Hardware / Control"
+    },
+    {
+      "name": "PUC-LOEM-Controle-Minolta",
+      "description": "LabView script controlling Minolta instrumentation inside LOEM (PUC-Rio).",
+      "url": "https://github.com/fr3dyos/PUC-LOEM-Controle-Minolta",
+      "language": "LabVIEW",
+      "category": "Instrumentation"
+    }
+  ],
+  "publications.title": "Publications",
+  "publications.note": "Selected peer-reviewed journal articles. Each entry links to its DOI.",
+  "publications.count": "6 peer-reviewed publications · 53 citations",
+  "publications.lattesLabel": "View full CV on Lattes",
+  "publications": [
+    {
+      "title": "Multisensor Magnetic Scanning Microscope for Remanent Magnetic Field Measurements",
+      "authors": "—",
+      "venue": "Sensors",
+      "year": "2024",
+      "doi": "https://doi.org/10.3390/s24072294"
+    },
+    {
+      "title": "Construction of a Hall Effect Scanning Magnetic Microscope Using Permanent Magnets for Characterization of Rock Samples",
+      "authors": "—",
+      "venue": "Journal of Magnetism and Magnetic Materials",
+      "year": "2022",
+      "doi": "https://doi.org/10.1016/j.jmmm.2022.170304"
+    },
+    {
+      "title": "Detecting Surface-Breaking Flaws with a Hall Effect Gradiometric Sensor",
+      "authors": "—",
+      "venue": "Measurement",
+      "year": "2020",
+      "doi": "https://doi.org/10.1016/j.measurement.2020.108808"
+    },
+    {
+      "title": "Versatile Hall Magnetometer with Variable Sensitivity Assembly for Characterization of the Magnetic Properties of Nanoparticles",
+      "authors": "—",
+      "venue": "Journal of Magnetism and Magnetic Materials",
+      "year": "2019",
+      "doi": "https://doi.org/10.1016/j.jmmm.2019.165431"
+    },
+    {
+      "title": "Scanning Magnetic Microscope Using a Gradiometric Configuration for Characterization of Rock Samples",
+      "authors": "—",
+      "venue": "Materials",
+      "year": "2019",
+      "doi": "https://doi.org/10.3390/ma12244154"
+    },
+    {
+      "title": "Dynamic Analysis of Active Mass Damper",
+      "authors": "—",
+      "venue": "Applied Mechanics and Materials",
+      "year": "2013",
+      "doi": "https://doi.org/10.4028/www.scientific.net/AMM.419.117"
+    }
+  ],
+  "patents.title": "Patents",
+  "patents.note": "Patent filings in instrumentation and antifouling technology.",
+  "patents": [
+    {
+      "title": "Antifouling System",
+      "number": "BR 10 2024 006838",
+      "year": "2024",
+      "status": "Pending",
+      "filedWith": "INPI",
+      "filedOn": "08/04/2024"
+    },
+    {
+      "title": "Magnetometer Using Hall-Effect Sensor at Low Temperatures for Characterization of Magnetic Nanoparticles",
+      "number": "BR 10 2019 001687 6",
+      "year": "2019",
+      "status": "Pending",
+      "filedWith": "INPI",
+      "filedOn": "28/01/2019"
+    }
+  ],
+  "education.title": "Education",
+  "education": [
+    {
+      "degree": "MBA, Business Intelligence and Artificial Intelligence",
+      "school": "PUC-Rio, Rio de Janeiro, Brazil",
+      "period": "2021 — 2023",
+      "note": "Focus: image classification using AI/ML techniques and transfer learning with ResNet50."
+    },
+    {
+      "degree": "M.Sc., Mechanical Engineering",
+      "school": "COPPE / Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil",
+      "period": "2014 — 2016",
+      "note": "Focus: dynamic modeling, robotics, and applied engineering research. Thesis: Vibration Analysis of Cantilever Beams with Piezoelectric Actuators and Sensors."
+    },
+    {
+      "degree": "B.Sc., Mechatronics Engineering",
+      "school": "Universidad Autónoma de Bucaramanga, Colombia",
+      "period": "2008 — 2013",
+      "note": ""
+    }
+  ],
+  "contact.title": "Get in touch",
+  "contact.body": "Open to senior Python, data, and R&D engineering roles. Reach out by email, connect on LinkedIn, or browse the Lattes CV.",
+  "contact.email": "Email me",
+  "contact.linkedin": "Connect on LinkedIn",
+  "contact.lattes": "Lattes CV",
+  "contact.github": "GitHub",
+  "contact.scholar": "Google Scholar",
+  "footer.copy": "© <span id=\"year\"></span> Fredy Giovany Osorio Gutiérrez. All rights reserved.",
+  "spoken": [
+    {
+      "code": "pt-BR",
+      "name": "Portuguese",
+      "level": "Native",
+      "levelLabel": "Native / Bilingual",
+      "percent": 100,
+      "cefr": "C2"
+    },
+    {
+      "code": "es-CO",
+      "name": "Spanish (Colombia)",
+      "level": "Native",
+      "levelLabel": "Native",
+      "percent": 100,
+      "cefr": "C2"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "level": "Fluent",
+      "levelLabel": "Fluent",
+      "percent": 90,
+      "cefr": "C1"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "level": "Basic",
+      "levelLabel": "Basic",
+      "percent": 30,
+      "cefr": "A2"
+    }
+  ],
+  "programming": [
+    {
+      "name": "Python",
+      "level": "Daily production",
+      "years": 10,
+      "percent": 95,
+      "kind": "core"
+    },
+    {
+      "name": "MATLAB",
+      "level": "Frequent",
+      "years": 9,
+      "percent": 85,
+      "kind": "core"
+    },
+    {
+      "name": "LabVIEW",
+      "level": "Frequent",
+      "years": 7,
+      "percent": 75,
+      "kind": "core"
+    },
+    {
+      "name": "C / C++",
+      "level": "Working knowledge",
+      "years": 8,
+      "percent": 70,
+      "kind": "core"
+    },
+    {
+      "name": "C#",
+      "level": "Working knowledge",
+      "years": 3,
+      "percent": 55,
+      "kind": "other"
+    },
+    {
+      "name": "SQL",
+      "level": "Basics",
+      "years": 2,
+      "percent": 40,
+      "kind": "other"
+    },
+    {
+      "name": "Git / GitHub",
+      "level": "Daily",
+      "years": 10,
+      "percent": 90,
+      "kind": "tool"
+    },
+    {
+      "name": "TensorFlow / OpenCV",
+      "level": "Working",
+      "years": 4,
+      "percent": 65,
+      "kind": "tool"
+    },
+    {
+      "name": "COMSOL Multiphysics",
+      "level": "Working",
+      "years": 5,
+      "percent": 60,
+      "kind": "tool"
+    }
+  ]
+}

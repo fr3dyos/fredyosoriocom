@@ -1,0 +1,349 @@
+{
+  "meta.title": "Fredy Osorio - Ingeniero de I+D",
+  "brand": "Fredy Osorio",
+  "nav.about": "Acerca de",
+  "nav.skills": "Competencias",
+  "nav.languages": "Idiomas",
+  "nav.experience": "Experiencia",
+  "nav.projects": "Proyectos",
+  "nav.publications": "Publicaciones",
+  "nav.education": "Formación",
+  "nav.contact": "Contacto",
+  "nav.languageLabel": "Idioma",
+  "nav.patents_short": "Patentes",
+  "hero.eyebrow": "Portafolio",
+  "hero.role": "Desarrollador Python · Especialista en Ingeniería de I+D",
+  "hero.tagline": "Ingeniero Mecatrónico · MSc en Ingeniería Mecánica · MBA en IA y Ciencia de Datos",
+  "hero.location": "Río de Janeiro, Brasil",
+  "hero.photo.alt": "Retrato de Fredy Osorio",
+  "hero.availability": "Disponible para posiciones senior",
+  "hero.cta.email": "Contáctame",
+  "hero.cta.github": "Ver GitHub",
+  "about.title": "Perfil Profesional",
+  "about.body": "Ingeniero senior y científico aplicado con más de 10 años de experiencia en el diseño, validación y escalamiento de sistemas técnicos complejos en entornos industriales y de investigación. Sólida formación en Python, con alcance en análisis de datos, visión por computador, pipelines de ML, automatización de flujos experimentales y herramientas de apoyo a la toma de decisiones. Trayectoria comprobada en la dirección de iniciativas de I+D, estructuración de flujos de datos, integración de fuentes heterogéneas y traducción de señales reales en resultados técnicos confiables. Combina rigor ingenieril, visión de producto y entrega práctica, un perfil apto para roles intensivos en datos que exigen resolución de problemas, sentido de pertenencia y trabajo interdisciplinario.",
+  "skills.title": "Competencias Principales",
+  "skills.programming.title": "Programación",
+  "skills.programming.body": "Python, C, C++, C#, MATLAB, LabVIEW, conceptos básicos de SQL, Git/GitHub.",
+  "skills.data.title": "Datos y ML",
+  "skills.data.body": "Análisis de datos, preprocesamiento, pipelines de visión por computador, clasificación de imágenes, transfer learning, TensorFlow, OpenCV, flujos de datos experimentales.",
+  "skills.engineering.title": "Sistemas de Ingeniería",
+  "skills.engineering.body": "Instrumentación, automatización, sistemas de control, adquisición de datos, pruebas de validación y de confiabilidad.",
+  "skills.modeling.title": "Modelado y Simulación",
+  "skills.modeling.body": "COMSOL Multiphysics, modelado matemático, diseño experimental, análisis de señales.",
+  "skills.leadership.title": "Liderazgo",
+  "skills.leadership.body": "Dirección de proyectos de I+D, montaje de laboratorios, comunicación con stakeholders, coordinación de PI y patentes, trabajo interdisciplinario.",
+  "languages.title": "Idiomas y Programación",
+  "languages.spoken.title": "Idiomas",
+  "languages.spoken.note": "Nivel de proficiencia autorreportado (MCER).",
+  "languages.programming.title": "Lenguajes y Herramientas",
+  "languages.programming.note": "Autoevaluación: uso diario frente a uso ocasional.",
+  "experience.title": "Experiencia Profesional",
+  "experience": [
+    {
+      "company": "BioRen Technology",
+      "role": "Líder de Desarrollo Tecnológico / Ingeniero de Investigación",
+      "place": "Río de Janeiro, Brasil",
+      "period": "Jun 2023 — Jun 2026",
+      "domain": "I+D, IA, validación de producto, liderazgo técnico",
+      "bullets": [
+        "Lideró un equipo de dos ingenieros en el desarrollo del sistema antiincrustante BioRen AFS HN2, certificado por DNV, en un entorno industrial de I+D.",
+        "Diseñó y mejoró flujos experimentales orientados por datos, integrando instrumentación, control y análisis para validación y desarrollo de producto.",
+        "Construyó un pipeline de visión por computador para la evaluación de bioincrustación a partir de imágenes de drones y ROVs, apoyando la clasificación y la toma de decisiones de I+D con flujos de trabajo en Python.",
+        "Estructuró procesos de laboratorio y flujos de datos, además de fundar el Laboratorio de Electrónica y contribuir a la creación del Laboratorio de Investigación en Biotecnología.",
+        "Planificó y ejecutó campañas de validación y de pruebas de confiabilidad, aumentando la robustez de los equipos y reduciendo el riesgo técnico.",
+        "Coordinó la documentación técnica, las contribuciones de cumplimiento normativo y las actividades de PI y patentes asociadas al desarrollo de producto."
+      ]
+    },
+    {
+      "company": "Pontificia Universidad Católica de Río de Janeiro (PUC-Rio)",
+      "role": "Especialista Técnico II",
+      "place": "Río de Janeiro, Brasil",
+      "period": "Oct 2017 — Jun 2023",
+      "domain": "Sistemas experimentales, automatización, adquisición de datos",
+      "bullets": [
+        "Desarrolló instrumentación especializada y sistemas de automatización para cinco laboratorios de física experimental (magnetometría, microscopía magnética de barrido y caracterización de rocas).",
+        "Diseñó flujos de adquisición y procesamiento en MATLAB y software de laboratorio, conectando el hardware de medición con pipelines de análisis digital.",
+        "Apoyó investigaciones avanzadas mediante sistemas de medición robustos, mejoras en la estabilidad de la señal y procesos repetibles de recolección de datos.",
+        "Aportó a la producción científica en magnetometría, microscopía magnética de barrido y caracterización de rocas, con múltiples publicaciones arbitradas."
+      ]
+    },
+    {
+      "company": "GMAS",
+      "role": "Ingeniero Mecatrónico",
+      "place": "Bogotá, Colombia",
+      "period": "Mar 2017 — Sep 2017",
+      "domain": "Automatización de código abierto, apoyo al imageamiento geológico",
+      "bullets": [
+        "Contribuyó a la plataforma de código abierto OneGeo para el análisis petrográfico de muestras geológicas.",
+        "Desarrolló soluciones de automatización con Arduino, Python y KiCad, con control de versiones a través de GitHub.",
+        "Apoyó flujos de trabajo de imágenes y experimentales en un entorno de investigación en geociencias."
+      ]
+    },
+    {
+      "company": "Consultor Independiente",
+      "role": "Consultor en Mecatrónica e Instrumentación",
+      "place": "Río de Janeiro, Brasil",
+      "period": "Jul 2016 — Actualidad",
+      "domain": "Consultoría técnica y herramientas analíticas",
+      "bullets": [
+        "Desarrolla scripts y rutinas analíticas en Python, MATLAB y LabVIEW para análisis de datos de ingeniería y automatización.",
+        "Entrega soluciones técnicas de extremo a extremo, desde el diseño conceptual y el desarrollo de circuitos hasta la implementación y validación.",
+        "Apoya proyectos de posgrado que involucran modelado, medición y flujos de procesamiento digital."
+      ]
+    },
+    {
+      "company": "COPPE / UFRJ",
+      "role": "Ingeniero de Desarrollo / Investigador",
+      "place": "Río de Janeiro, Brasil",
+      "period": "Mar 2014 — Mar 2016",
+      "domain": "Robótica, simulación, investigación aplicada",
+      "bullets": [
+        "Desarrolló sistemas robóticos navales y estrategias de control mecatrónico en un entorno de investigación.",
+        "Realizó estudios de modelado, simulación y validación para sistemas mecánicos dinámicos."
+      ]
+    }
+  ],
+  "projects.title": "Proyectos de Código Abierto",
+  "projects.note": "Selección de 6 proyectos destacados — instrumentación, visión por computador y control, además de un ejercicio de IA/ML.",
+  "projects.githubLabel": "Ver en GitHub",
+  "projects": [
+    {
+      "name": "Clasificación de Imágenes de Muestras Geológicas (Transfer Learning)",
+      "description": "Clasificación petrográfica con ResNet50 — proyecto integrador del MBA, con pipeline de IA/ML.",
+      "url": "https://github.com/fr3dyos/Classificacao-de-imagens-de-amostras-geologicas-usando-transfer-learning",
+      "language": "Jupyter Notebook",
+      "category": "IA / ML"
+    },
+    {
+      "name": "serialPortUI",
+      "description": "Interfaz en Python para comunicación serial con instrumentación y hardware de laboratorio.",
+      "url": "https://github.com/fr3dyos/serialPortUI",
+      "language": "Python",
+      "category": "Instrumentación"
+    },
+    {
+      "name": "stichingPanorama",
+      "description": "Pipeline de stitching/composición panorámica para imágenes experimentales y de campo.",
+      "url": "https://github.com/fr3dyos/stichingPanorama",
+      "language": "Python",
+      "category": "Visión por Computador"
+    },
+    {
+      "name": "CoilCharacterization",
+      "description": "Rutinas de instrumentación para caracterizar bobinas magnéticas y hardware relacionado.",
+      "url": "https://github.com/fr3dyos/CoilCharacterization",
+      "language": "Python",
+      "category": "Instrumentación"
+    },
+    {
+      "name": "pizzacontroller",
+      "description": "Firmware en C++ para el controlador de la etapa de muestras del LOEM-PUC.",
+      "url": "https://github.com/fr3dyos/pizzacontroller",
+      "language": "C++",
+      "category": "Hardware / Control"
+    },
+    {
+      "name": "PUC-LOEM-Controle-Minolta",
+      "description": "Script en LabView para controlar la instrumentación Minolta en el LOEM (PUC-Rio).",
+      "url": "https://github.com/fr3dyos/PUC-LOEM-Controle-Minolta",
+      "language": "LabVIEW",
+      "category": "Instrumentación"
+    }
+  ],
+  "publications.title": "Publicaciones",
+  "publications.note": "Artículos seleccionados en revistas arbitradas. Cada entrada enlaza a su DOI.",
+  "publications.count": "6 publicaciones arbitradas · 53 citas",
+  "publications.lattesLabel": "Ver el currículo completo en Lattes",
+  "publications": [
+    {
+      "title": "Multisensor Magnetic Scanning Microscope for Remanent Magnetic Field Measurements",
+      "authors": "—",
+      "venue": "Sensors",
+      "year": "2024",
+      "doi": "https://doi.org/10.3390/s24072294"
+    },
+    {
+      "title": "Construction of a Hall Effect Scanning Magnetic Microscope Using Permanent Magnets for Characterization of Rock Samples",
+      "authors": "—",
+      "venue": "Journal of Magnetism and Magnetic Materials",
+      "year": "2022",
+      "doi": "https://doi.org/10.1016/j.jmmm.2022.170304"
+    },
+    {
+      "title": "Detecting Surface-Breaking Flaws with a Hall Effect Gradiometric Sensor",
+      "authors": "—",
+      "venue": "Measurement",
+      "year": "2020",
+      "doi": "https://doi.org/10.1016/j.measurement.2020.108808"
+    },
+    {
+      "title": "Versatile Hall Magnetometer with Variable Sensitivity Assembly for Characterization of the Magnetic Properties of Nanoparticles",
+      "authors": "—",
+      "venue": "Journal of Magnetism and Magnetic Materials",
+      "year": "2019",
+      "doi": "https://doi.org/10.1016/j.jmmm.2019.165431"
+    },
+    {
+      "title": "Scanning Magnetic Microscope Using a Gradiometric Configuration for Characterization of Rock Samples",
+      "authors": "—",
+      "venue": "Materials",
+      "year": "2019",
+      "doi": "https://doi.org/10.3390/ma12244154"
+    },
+    {
+      "title": "Dynamic Analysis of Active Mass Damper",
+      "authors": "—",
+      "venue": "Applied Mechanics and Materials",
+      "year": "2013",
+      "doi": "https://doi.org/10.4028/www.scientific.net/AMM.419.117"
+    }
+  ],
+  "patents.title": "Patentes",
+  "patents.note": "Solicitudes de patente en instrumentación y tecnología antiincrustante.",
+  "patents": [
+    {
+      "title": "Sistema antiincrustante",
+      "number": "BR 10 2024 006838",
+      "year": "2024",
+      "status": "En trámite",
+      "filedWith": "INPI",
+      "filedOn": "08/04/2024"
+    },
+    {
+      "title": "Magnetómetro que utiliza un sensor de efecto Hall a bajas temperaturas para caracterización de nanopartículas magnéticas",
+      "number": "BR 10 2019 001687 6",
+      "year": "2019",
+      "status": "En trámite",
+      "filedWith": "INPI",
+      "filedOn": "28/01/2019"
+    }
+  ],
+  "education.title": "Formación Académica",
+  "education": [
+    {
+      "degree": "MBA, Business Intelligence e Inteligencia Artificial",
+      "school": "PUC-Rio, Río de Janeiro, Brasil",
+      "period": "2021 — 2023",
+      "note": "Enfoque: clasificación de imágenes mediante técnicas de IA/ML y transfer learning con ResNet50."
+    },
+    {
+      "degree": "M.Sc., Ingeniería Mecánica",
+      "school": "COPPE / Universidad Federal de Río de Janeiro (UFRJ), Río de Janeiro, Brasil",
+      "period": "2014 — 2016",
+      "note": "Enfoque: modelado dinámico, robótica e investigación aplicada en ingeniería. Tesis: Análisis de Vibración de Vigas en Voladizo con Actuadores y Sensores Piezoeléctricos."
+    },
+    {
+      "degree": "B.Sc., Ingeniería Mecatrónica",
+      "school": "Universidad Autónoma de Bucaramanga, Colombia",
+      "period": "2008 — 2013",
+      "note": ""
+    }
+  ],
+  "contact.title": "Conversemos",
+  "contact.body": "Disponible para posiciones senior en Python, datos e ingeniería de I+D. Escríbame por correo electrónico, conéctese en LinkedIn o consulte el currículo Lattes.",
+  "contact.email": "Enviar correo",
+  "contact.linkedin": "Conectar en LinkedIn",
+  "contact.lattes": "Currículo Lattes",
+  "contact.github": "GitHub",
+  "contact.scholar": "Google Scholar",
+  "footer.copy": "© <span id=\"year\"></span> Fredy Giovany Osorio Gutiérrez. Todos los derechos reservados.",
+  "spoken": [
+    {
+      "code": "pt-BR",
+      "name": "Portugués",
+      "level": "Nativo",
+      "levelLabel": "Nativo / Bilingüe",
+      "percent": 100,
+      "cefr": "C2"
+    },
+    {
+      "code": "es-CO",
+      "name": "Español (Colombia)",
+      "level": "Nativo",
+      "levelLabel": "Nativo",
+      "percent": 100,
+      "cefr": "C2"
+    },
+    {
+      "code": "en",
+      "name": "Inglés",
+      "level": "Fluido",
+      "levelLabel": "Fluido",
+      "percent": 90,
+      "cefr": "C1"
+    },
+    {
+      "code": "fr",
+      "name": "Francés",
+      "level": "Básico",
+      "levelLabel": "Básico",
+      "percent": 30,
+      "cefr": "A2"
+    }
+  ],
+  "programming": [
+    {
+      "name": "Python",
+      "level": "Uso diario",
+      "years": 10,
+      "percent": 95,
+      "kind": "core"
+    },
+    {
+      "name": "MATLAB",
+      "level": "Frecuente",
+      "years": 9,
+      "percent": 85,
+      "kind": "core"
+    },
+    {
+      "name": "LabVIEW",
+      "level": "Frecuente",
+      "years": 7,
+      "percent": 75,
+      "kind": "core"
+    },
+    {
+      "name": "C / C++",
+      "level": "Conocimiento de trabajo",
+      "years": 8,
+      "percent": 70,
+      "kind": "core"
+    },
+    {
+      "name": "C#",
+      "level": "Conocimiento de trabajo",
+      "years": 3,
+      "percent": 55,
+      "kind": "other"
+    },
+    {
+      "name": "SQL",
+      "level": "Básico",
+      "years": 2,
+      "percent": 40,
+      "kind": "other"
+    },
+    {
+      "name": "Git / GitHub",
+      "level": "Uso diario",
+      "years": 10,
+      "percent": 90,
+      "kind": "tool"
+    },
+    {
+      "name": "TensorFlow / OpenCV",
+      "level": "Trabajo",
+      "years": 4,
+      "percent": 65,
+      "kind": "tool"
+    },
+    {
+      "name": "COMSOL Multiphysics",
+      "level": "Trabajo",
+      "years": 5,
+      "percent": 60,
+      "kind": "tool"
+    }
+  ]
+}
