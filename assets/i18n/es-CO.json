@@ -344,6 +344,20 @@
       "years": 5,
       "percent": 60,
       "kind": "tool"
+    },
+    {
+      "name": "Solidworks",
+      "level": "Working",
+      "years": 10,
+      "percent": 60,
+      "kind": "tool"
+    },
+    {
+      "name": "KiCaD",
+      "level": "Working",
+      "years": 10,
+      "percent": 60,
+      "kind": "tool"
     }
   ]
 }
