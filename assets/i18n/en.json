@@ -4,6 +4,7 @@
   "nav.about": "About",
   "nav.skills": "Skills",
   "nav.languages": "Languages",
+  "nav.research": "Research",
   "nav.experience": "Experience",
   "nav.projects": "Projects",
   "nav.publications": "Publications",
@@ -66,6 +67,79 @@
   "languages.disciplines.title": "Engineering Disciplines",
   "languages.disciplines.note": "Core areas of practice.",
   "disciplines": ["Mechatronics", "Instrumentation", "Simulation", "Embedded", "Automation", "R&D", "AI"],
+  "research.title": "Research Groups & Experience",
+  "research.intro": "Research trajectory across robotics, photonics, optoelectronics, instrumentation and applied multidisciplinary R&D.",
+  "research.roleResearcher": "Researcher",
+  "research.roleCoordinator": "Coordinator",
+  "research.legacy": "Legacy group",
+  "research": [
+    {
+      "name": "NanoLaserLab",
+      "period": "2022 — 2024",
+      "focus": "Nanomaterials, optical characterization, sensing, laser-based techniques, experimental research.",
+      "role": "researcher"
+    },
+    {
+      "name": "Organic and Molecular Optoelectronics Group — LOEM",
+      "period": "2022 — 2024",
+      "focus": "Organic optoelectronics, electronic devices, materials characterization, sensors, experimental physics.",
+      "role": "researcher"
+    },
+    {
+      "name": "Instrumentation and Magnetic Measurements",
+      "period": "2020 — 2022",
+      "focus": "Scientific instrumentation, magnetic measurements, magnetic sensors, characterization, experimental systems.",
+      "role": "researcher"
+    },
+    {
+      "name": "Laser Synthesis and Characterization of Nanomaterials",
+      "period": "2020 — 2022",
+      "focus": "Laser-based synthesis and characterization of nanomaterials, optical characterization, sensing applications.",
+      "role": "researcher"
+    },
+    {
+      "name": "Photonic Devices in Fibers and Glasses",
+      "period": "2018 — 2023",
+      "focus": "Photonics, optical fibers, glasses, device characterization, experimental optical systems.",
+      "role": "researcher"
+    },
+    {
+      "name": "Molecular Optoelectronics Group — LOEM",
+      "period": "2018 — 2022",
+      "focus": "Organic electronics, optoelectronic materials, devices, sensors, experimental characterization.",
+      "role": "researcher"
+    },
+    {
+      "name": "Automation and Robotics — COPPE/UFRJ",
+      "period": "2014 — 2017",
+      "focus": "Robotics, automation, mechatronic systems, mechanisms, engineering development.",
+      "role": "coordinator",
+      "international": "GMAS collaboration (Colombia)"
+    }
+  ],
+  "softskills.title": "Leadership & Collaboration",
+  "softskills": [
+    {
+      "name": "Technical Communication",
+      "evidence": "Presented technical results to companies and certification bodies (DNV) during BioRen validation campaigns."
+    },
+    {
+      "name": "Research Coordination",
+      "evidence": "Coordinated experimental campaigns and validation activities for the BioRen AFS HN2 system."
+    },
+    {
+      "name": "Multidisciplinary Collaboration",
+      "evidence": "Cross-disciplinary work across physics, engineering, and biology/biotech environments."
+    },
+    {
+      "name": "Mentoring",
+      "evidence": "Mentored junior researchers and co-workers across research and industry projects."
+    },
+    {
+      "name": "Project Coordination",
+      "evidence": "Managed equipment purchases, laboratory setup, and project schedules at BioRen and PUC-Rio labs."
+    }
+  ],
   "experience.title": "Professional Experience",
   "experience": [
     {

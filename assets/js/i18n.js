@@ -40,7 +40,8 @@
       // Skip list-container placeholders (handled in render functions)
       if (key === 'experience' || key === 'projects' || key === 'education' ||
           key === 'publications' || key === 'patents' ||
-          key === 'spoken' || key === 'skills' || key === 'disciplines') return;
+          key === 'spoken' || key === 'skills' || key === 'disciplines' ||
+          key === 'research' || key === 'softskills') return;
       const value = resolve(bundle, key);
       if (typeof value === 'string') {
         // Void elements (img, input, etc.) can only have attribute swaps; skip innerHTML
@@ -62,6 +63,7 @@
     if (titleVal) document.title = titleVal;
 
     renderExperience(bundle.experience || []);
+    renderResearch(bundle.research || [], bundle);
     renderProjects(bundle.projects || []);
     renderPublications(bundle.publications || []);
     renderPatents(bundle.patents || []);
@@ -74,6 +76,58 @@
 
     const y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
+  }
+
+  // ---------- Research groups: compact timeline ----------
+  function renderResearch(items, bundle) {
+    const list = document.getElementById('research-list');
+    if (!list) return;
+    const roleLabel = (r) => r === 'coordinator'
+      ? escape(bundle['research.roleCoordinator'] || 'Coordinator')
+      : escape(bundle['research.roleResearcher'] || 'Researcher');
+
+    list.innerHTML = items.map((g) => {
+      const isCoordinator = g.role === 'coordinator';
+        const badgeClass = isCoordinator
+          ? 'border-primary text-primary'
+          : 'border-outline/40 text-on-surface/50';
+        const roleText = roleLabel(g.role);
+        const focus = g.focus ? `<p class="text-on-surface/60 text-sm leading-relaxed">${escape(g.focus)}</p>` : '';
+        const intl = g.international
+          ? `<span class="text-[10px] font-code uppercase tracking-widest text-secondary border border-secondary/40 px-2 py-1"><i class="fa-solid fa-globe mr-1" aria-hidden="true"></i>${escape(g.international)}</span>`
+          : '';
+        return `
+      <li class="relative">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="glass-panel p-6 hover:border-primary/50 transition-colors">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-3">
+            <div class="flex flex-wrap items-center gap-3">
+              <h3 class="font-headline text-lg font-bold text-on-surface">${escape(g.name)}</h3>
+              <span class="text-[10px] font-code uppercase tracking-widest ${badgeClass} border px-2 py-1">${roleText}</span>
+              ${intl}
+            </div>
+            <span class="text-on-surface/40 font-code text-xs whitespace-nowrap">${escape(g.period)}</span>
+          </div>
+          ${focus}
+        </div>
+      </li>
+    `;
+      }).join('');
+
+    renderSoftSkills(bundle.softskills || []);
+  }
+
+  // ---------- Soft skills: evidence-based cards ----------
+  function renderSoftSkills(items) {
+    const list = document.getElementById('softskills-list');
+    if (!list) return;
+    if (!items.length) { list.innerHTML = ''; return; }
+    list.innerHTML = items.map((s) => `
+      <li class="glass-panel p-6 neon-border">
+        <h4 class="font-headline text-base font-bold text-primary mb-2">${escape(s.name)}</h4>
+        <p class="text-on-surface/60 text-sm leading-relaxed">${escape(s.evidence)}</p>
+      </li>
+    `).join('');
   }
 
   // ---------- Experience: timeline ----------
