@@ -22,21 +22,50 @@
   "about.title": "Perfil Profesional",
   "about.body": "Ingeniero senior y científico aplicado con más de 10 años de experiencia en el diseño, validación y escalamiento de sistemas técnicos complejos en entornos industriales y de investigación. Sólida formación en Python, con alcance en análisis de datos, visión por computador, pipelines de ML, automatización de flujos experimentales y herramientas de apoyo a la toma de decisiones. Trayectoria comprobada en la dirección de iniciativas de I+D, estructuración de flujos de datos, integración de fuentes heterogéneas y traducción de señales reales en resultados técnicos confiables. Combina rigor ingenieril, visión de producto y entrega práctica, un perfil apto para roles intensivos en datos que exigen resolución de problemas, sentido de pertenencia y trabajo interdisciplinario.",
   "skills.title": "Competencias Principales",
-  "skills.programming.title": "Programación",
-  "skills.programming.body": "Python, C, C++, C#, MATLAB, LabVIEW, conceptos básicos de SQL, Git/GitHub.",
-  "skills.data.title": "Datos y ML",
-  "skills.data.body": "Análisis de datos, preprocesamiento, pipelines de visión por computador, clasificación de imágenes, transfer learning, TensorFlow, OpenCV, flujos de datos experimentales.",
-  "skills.engineering.title": "Sistemas de Ingeniería",
-  "skills.engineering.body": "Instrumentación, automatización, sistemas de control, adquisición de datos, pruebas de validación y de confiabilidad.",
-  "skills.modeling.title": "Modelado y Simulación",
-  "skills.modeling.body": "COMSOL Multiphysics, modelado matemático, diseño experimental, análisis de señales.",
-  "skills.leadership.title": "Liderazgo",
-  "skills.leadership.body": "Dirección de proyectos de I+D, montaje de laboratorios, comunicación con stakeholders, coordinación de PI y patentes, trabajo interdisciplinario.",
-  "languages.title": "Idiomas y Programación",
+  "skills.intro": "Ingeniero de I+D multidisciplinar que combina ingeniería experimental, instrumentación científica, simulación multifísica, sistemas embebidos y análisis asistido por IA.",
+  "skills": [
+    {
+      "id": "programming",
+      "title": "Programación",
+      "items": ["Python", "C", "C++", "C#", "MATLAB", "SQL", "Git", "GitHub"]
+    },
+    {
+      "id": "ai-vision",
+      "title": "IA / Visión",
+      "items": ["TensorFlow", "OpenCV", "Machine Learning", "Deep Learning", "Visión por Computador", "Detección de Objetos", "Transfer Learning", "Procesamiento de Imágenes"]
+    },
+    {
+      "id": "simulation",
+      "title": "Simulación / CAE",
+      "items": ["COMSOL Multiphysics", "COMSOL AC/DC", "FEM", "FEA", "Simulación Multifísica", "Simulación Electromagnética", "Modelado Científico", "SolidWorks", "CAD", "CAE"]
+    },
+    {
+      "id": "embedded",
+      "title": "Embebidos / Electrónica",
+      "items": ["Sistemas Embebidos", "Arduino", "ESP32", "Microcontroladores", "KiCad", "Diseño Electrónico", "Sensores", "Actuadores", "Prototipado de Hardware"]
+    },
+    {
+      "id": "automation",
+      "title": "Automatización",
+      "items": ["Programación de PLC", "HMI", "Sistemas de Control Industrial", "Modbus", "Profibus", "RS-232", "RS-485", "Comunicación Serial", "Protocolos de Comunicación Industrial"]
+    },
+    {
+      "id": "instrumentation",
+      "title": "Instrumentación / I+D",
+      "items": ["LabVIEW", "DAQ", "Instrumentación Científica", "Instrumentación de Precisión", "Tecnología de Sensores", "Procesamiento de Señales", "Validación Experimental", "Sistemas de Medición", "Ensayos de Laboratorio"]
+    },
+    {
+      "id": "ai-engineering",
+      "title": "Ingeniería de IA / Investigación",
+      "items": ["Agentes de IA", "LLMs", "Model Context Protocol (MCP)", "Tool Calling", "Automatización de Flujos", "Automatización Científica de Flujos", "Sistemas Human-in-the-loop", "OpenLCA", "Análisis de Ciclo de Vida (ACV)"]
+    }
+  ],
+  "languages.title": "Idiomas",
   "languages.spoken.title": "Idiomas",
   "languages.spoken.note": "Nivel de proficiencia autorreportado (MCER).",
-  "languages.programming.title": "Lenguajes y Herramientas",
-  "languages.programming.note": "Autoevaluación: uso diario frente a uso ocasional.",
+  "languages.disciplines.title": "Disciplinas de Ingeniería",
+  "languages.disciplines.note": "Áreas centrales de práctica.",
+  "disciplines": ["Mecatrónica", "Instrumentación", "Simulación", "Embebidos", "Automatización", "I+D", "IA"],
   "experience.title": "Experiencia Profesional",
   "experience": [
     {
@@ -279,85 +308,6 @@
       "levelLabel": "Básico",
       "percent": 30,
       "cefr": "A2"
-    }
-  ],
-  "programming": [
-    {
-      "name": "Python",
-      "level": "Uso diario",
-      "years": 10,
-      "percent": 95,
-      "kind": "core"
-    },
-    {
-      "name": "MATLAB",
-      "level": "Frecuente",
-      "years": 9,
-      "percent": 85,
-      "kind": "core"
-    },
-    {
-      "name": "LabVIEW",
-      "level": "Frecuente",
-      "years": 7,
-      "percent": 75,
-      "kind": "core"
-    },
-    {
-      "name": "C / C++",
-      "level": "Conocimiento de trabajo",
-      "years": 8,
-      "percent": 70,
-      "kind": "core"
-    },
-    {
-      "name": "C#",
-      "level": "Conocimiento de trabajo",
-      "years": 3,
-      "percent": 55,
-      "kind": "other"
-    },
-    {
-      "name": "SQL",
-      "level": "Básico",
-      "years": 2,
-      "percent": 40,
-      "kind": "other"
-    },
-    {
-      "name": "Git / GitHub",
-      "level": "Uso diario",
-      "years": 10,
-      "percent": 90,
-      "kind": "tool"
-    },
-    {
-      "name": "TensorFlow / OpenCV",
-      "level": "Trabajo",
-      "years": 4,
-      "percent": 65,
-      "kind": "tool"
-    },
-    {
-      "name": "COMSOL Multiphysics",
-      "level": "Trabajo",
-      "years": 5,
-      "percent": 60,
-      "kind": "tool"
-    },
-    {
-      "name": "Solidworks",
-      "level": "Working",
-      "years": 10,
-      "percent": 60,
-      "kind": "tool"
-    },
-    {
-      "name": "KiCaD",
-      "level": "Working",
-      "years": 10,
-      "percent": 60,
-      "kind": "tool"
     }
   ]
 }

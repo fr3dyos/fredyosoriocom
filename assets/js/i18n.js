@@ -40,7 +40,7 @@
       // Skip list-container placeholders (handled in render functions)
       if (key === 'experience' || key === 'projects' || key === 'education' ||
           key === 'publications' || key === 'patents' ||
-          key === 'spoken' || key === 'programming') return;
+          key === 'spoken' || key === 'skills' || key === 'disciplines') return;
       const value = resolve(bundle, key);
       if (typeof value === 'string') {
         // Void elements (img, input, etc.) can only have attribute swaps; skip innerHTML
@@ -67,7 +67,8 @@
     renderPatents(bundle.patents || []);
     renderEducation(bundle.education || []);
     renderSpoken(bundle.spoken || []);
-    renderProgramming(bundle.programming || []);
+    renderSkills(bundle.skills || []);
+    renderDisciplines(bundle.disciplines || []);
 
     document.documentElement.lang = HTML_LANG[currentLang] || 'en';
 
@@ -226,17 +227,44 @@
     `).join('');
   }
 
-  // ---------- Programming: stack chips ----------
-  function renderProgramming(items) {
-    const list = document.getElementById('programming-list');
+  // ---------- Skills: grouped category cards ----------
+  const SKILL_ICONS = {
+    'programming': 'fa-code',
+    'ai-vision': 'fa-brain',
+    'simulation': 'fa-atom',
+    'embedded': 'fa-microchip',
+    'automation': 'fa-gears',
+    'instrumentation': 'fa-microscope',
+    'ai-engineering': 'fa-robot'
+  };
+
+  function renderSkills(categories) {
+    const list = document.getElementById('skills-list');
     if (!list) return;
-    list.innerHTML = items.map((p) => {
-      const meta = [p.level, p.years ? `${p.years} yr` : ''].filter(Boolean).join(' · ');
+    list.innerHTML = categories.map((cat) => {
+      const icon = SKILL_ICONS[cat.id] || 'fa-screwdriver-wrench';
+      const items = (cat.items || []).map((s) =>
+        `<li class="border border-primary/20 px-3 py-1.5 font-code text-[11px] tracking-widest uppercase text-on-surface/80 hover:border-primary/60 hover:bg-primary/5 transition-all cursor-default">${escape(s)}</li>`
+      ).join('');
       return `
-      <li class="border border-primary/20 px-5 py-3 font-code text-xs tracking-widest uppercase hover:border-primary/60 hover:bg-primary/5 transition-all cursor-default"
-          title="${escape(meta)}">${escape(p.name)}</li>
+      <article class="glass-panel p-6 neon-border flex flex-col">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="w-9 h-9 border border-primary/50 flex items-center justify-center text-primary" aria-hidden="true"><i class="fa-solid ${icon} text-sm"></i></span>
+          <h3 class="font-headline text-lg font-bold text-primary">${escape(cat.title)}</h3>
+        </div>
+        <ul class="flex flex-wrap gap-2">${items}</ul>
+      </article>
     `;
     }).join('');
+  }
+
+  // ---------- Disciplines: small chip list under Languages section ----------
+  function renderDisciplines(items) {
+    const list = document.getElementById('disciplines-list');
+    if (!list) return;
+    list.innerHTML = items.map((d) => `
+      <li class="border border-primary/20 px-4 py-2 font-code text-xs tracking-widest uppercase text-on-surface/80 hover:border-primary/60 hover:bg-primary/5 transition-all cursor-default">${escape(d)}</li>
+    `).join('');
   }
 
   let currentLang = DEFAULT_LANG;

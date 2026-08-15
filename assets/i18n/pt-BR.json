@@ -22,21 +22,50 @@
   "about.title": "Resumo Profissional",
   "about.body": "Engenheiro sênior e cientista aplicado com mais de 10 anos de experiência projetando, validando e escalando sistemas técnicos complexos em ambientes industriais e de pesquisa. Sólida formação em Python, abrangendo análise de dados, visão computacional, pipelines de ML, automação de fluxos experimentais e ferramentas de apoio à decisão. Histórico comprovado na liderança de iniciativas de P&D, estruturação de fluxos de dados, integração de fontes heterogêneas e tradução de sinais reais em resultados técnicos confiáveis. Combina rigor de engenharia, visão de produto e entrega prática — perfil adequado a funções intensivas em dados que exigem resolução de problemas, senso de dono e colaboração multifuncional.",
   "skills.title": "Competências Principais",
-  "skills.programming.title": "Programação",
-  "skills.programming.body": "Python, C, C++, C#, MATLAB, LabVIEW, conceitos básicos de SQL, Git/GitHub.",
-  "skills.data.title": "Dados & ML",
-  "skills.data.body": "Análise de dados, pré-processamento, pipelines de visão computacional, classificação de imagens, transfer learning, TensorFlow, OpenCV, fluxos de dados experimentais.",
-  "skills.engineering.title": "Sistemas de Engenharia",
-  "skills.engineering.body": "Instrumentação, automação, sistemas de controle, aquisição de dados, testes de validação e de confiabilidade.",
-  "skills.modeling.title": "Modelagem & Simulação",
-  "skills.modeling.body": "COMSOL Multiphysics, modelagem matemática, planejamento experimental, análise de sinais.",
-  "skills.leadership.title": "Liderança",
-  "skills.leadership.body": "Liderança de projetos de P&D, montagem de laboratórios, comunicação com stakeholders, coordenação de patentes e PI, trabalho multifuncional.",
-  "languages.title": "Idiomas & Programação",
+  "skills.intro": "Engenheiro de P&D multidisciplinar que combina engenharia experimental, instrumentação científica, simulação multifísica, sistemas embarcados e análise orientada por IA.",
+  "skills": [
+    {
+      "id": "programming",
+      "title": "Programação",
+      "items": ["Python", "C", "C++", "C#", "MATLAB", "SQL", "Git", "GitHub"]
+    },
+    {
+      "id": "ai-vision",
+      "title": "IA / Visão",
+      "items": ["TensorFlow", "OpenCV", "Machine Learning", "Deep Learning", "Visão Computacional", "Detecção de Objetos", "Transfer Learning", "Processamento de Imagens"]
+    },
+    {
+      "id": "simulation",
+      "title": "Simulação / CAE",
+      "items": ["COMSOL Multiphysics", "COMSOL AC/DC", "FEM", "FEA", "Simulação Multifísica", "Simulação Eletromagnética", "Modelagem Científica", "SolidWorks", "CAD", "CAE"]
+    },
+    {
+      "id": "embedded",
+      "title": "Embarcados / Eletrônica",
+      "items": ["Sistemas Embarcados", "Arduino", "ESP32", "Microcontroladores", "KiCad", "Projeto Eletrônico", "Sensores", "Atuadores", "Prototipagem de Hardware"]
+    },
+    {
+      "id": "automation",
+      "title": "Automação",
+      "items": ["Programação de CLPs", "IHM", "Sistemas de Controle Industrial", "Modbus", "Profibus", "RS-232", "RS-485", "Comunicação Serial", "Protocolos de Comunicação Industrial"]
+    },
+    {
+      "id": "instrumentation",
+      "title": "Instrumentação / P&D",
+      "items": ["LabVIEW", "DAQ", "Instrumentação Científica", "Instrumentação de Precisão", "Tecnologia de Sensores", "Processamento de Sinais", "Validação Experimental", "Sistemas de Medição", "Ensaios Laboratoriais"]
+    },
+    {
+      "id": "ai-engineering",
+      "title": "Engenharia de IA / Pesquisa",
+      "items": ["Agentes de IA", "LLMs", "Model Context Protocol (MCP)", "Tool Calling", "Automação de Workflows", "Automação Científica de Workflows", "Sistemas Human-in-the-loop", "OpenLCA", "Avaliação de Ciclo de Vida (ACV)"]
+    }
+  ],
+  "languages.title": "Idiomas",
   "languages.spoken.title": "Idiomas",
   "languages.spoken.note": "Proficiência autorreportada (CEFR).",
-  "languages.programming.title": "Linguagens & Ferramentas",
-  "languages.programming.note": "Autoavaliação: uso diário vs. ocasional.",
+  "languages.disciplines.title": "Disciplinas de Engenharia",
+  "languages.disciplines.note": "Áreas centrais de atuação.",
+  "disciplines": ["Mecatrônica", "Instrumentação", "Simulação", "Embarcados", "Automação", "P&D", "IA"],
   "experience.title": "Experiência Profissional",
   "experience": [
     {
@@ -279,85 +308,6 @@
       "levelLabel": "Básico",
       "percent": 30,
       "cefr": "A2"
-    }
-  ],
-  "programming": [
-    {
-      "name": "Python",
-      "level": "Uso diário",
-      "years": 10,
-      "percent": 95,
-      "kind": "core"
-    },
-    {
-      "name": "MATLAB",
-      "level": "Frequente",
-      "years": 9,
-      "percent": 85,
-      "kind": "core"
-    },
-    {
-      "name": "LabVIEW",
-      "level": "Frequente",
-      "years": 7,
-      "percent": 75,
-      "kind": "core"
-    },
-    {
-      "name": "C / C++",
-      "level": "Conhecimento de trabalho",
-      "years": 8,
-      "percent": 70,
-      "kind": "core"
-    },
-    {
-      "name": "C#",
-      "level": "Conhecimento de trabalho",
-      "years": 3,
-      "percent": 55,
-      "kind": "other"
-    },
-    {
-      "name": "SQL",
-      "level": "Básico",
-      "years": 2,
-      "percent": 40,
-      "kind": "other"
-    },
-    {
-      "name": "Git / GitHub",
-      "level": "Uso diário",
-      "years": 10,
-      "percent": 90,
-      "kind": "tool"
-    },
-    {
-      "name": "TensorFlow / OpenCV",
-      "level": "Trabalho",
-      "years": 4,
-      "percent": 65,
-      "kind": "tool"
-    },
-    {
-      "name": "COMSOL Multiphysics",
-      "level": "Trabalho",
-      "years": 5,
-      "percent": 60,
-      "kind": "tool"
-    },
-    {
-      "name": "Solidworks",
-      "level": "Working",
-      "years": 10,
-      "percent": 60,
-      "kind": "tool"
-    },
-    {
-      "name": "KiCaD",
-      "level": "Working",
-      "years": 10,
-      "percent": 60,
-      "kind": "tool"
     }
   ]
 }

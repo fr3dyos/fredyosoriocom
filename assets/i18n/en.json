@@ -22,21 +22,50 @@
   "about.title": "Professional Summary",
   "about.body": "Senior engineer and applied scientist with 10+ years of experience designing, validating, and scaling complex technical systems across industry and research environments. Strong Python background spanning data analysis, computer vision, ML pipelines, experimental workflow automation, and decision-support tooling. Proven record leading R&D initiatives, structuring data workflows, integrating heterogeneous data sources, and translating messy real-world signals into reliable technical outputs. Brings an unusual combination of engineering rigor, product mindset, and hands-on delivery that fits data-intensive roles requiring problem solving, ownership, and cross-functional collaboration.",
   "skills.title": "Core Skills",
-  "skills.programming.title": "Programming",
-  "skills.programming.body": "Python, C, C++, C#, MATLAB, LabVIEW, basic SQL concepts, Git/GitHub.",
-  "skills.data.title": "Data & ML",
-  "skills.data.body": "Data analysis, data preprocessing, computer vision pipelines, image classification, transfer learning, TensorFlow, OpenCV, experimental data workflows.",
-  "skills.engineering.title": "Engineering Systems",
-  "skills.engineering.body": "Instrumentation, automation, control systems, data acquisition systems, validation testing, reliability testing.",
-  "skills.modeling.title": "Modeling & Simulation",
-  "skills.modeling.body": "COMSOL Multiphysics, mathematical modeling, experimental design, signal analysis.",
-  "skills.leadership.title": "Leadership",
-  "skills.leadership.body": "R&D project leadership, laboratory setup, stakeholder communication, IP/patent coordination, cross-functional teamwork.",
-  "languages.title": "Languages & Programming",
+  "skills.intro": "Multidisciplinary R&D engineer combining experimental engineering, scientific instrumentation, multiphysics simulation, embedded systems and AI-driven analysis.",
+  "skills": [
+    {
+      "id": "programming",
+      "title": "Programming",
+      "items": ["Python", "C", "C++", "C#", "MATLAB", "SQL", "Git", "GitHub"]
+    },
+    {
+      "id": "ai-vision",
+      "title": "AI / Vision",
+      "items": ["TensorFlow", "OpenCV", "Machine Learning", "Deep Learning", "Computer Vision", "Object Detection", "Transfer Learning", "Image Processing"]
+    },
+    {
+      "id": "simulation",
+      "title": "Simulation / CAE",
+      "items": ["COMSOL Multiphysics", "COMSOL AC/DC", "FEM", "FEA", "Multiphysics Simulation", "Electromagnetic Simulation", "Scientific Modeling", "SolidWorks", "CAD", "CAE"]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded / Electronics",
+      "items": ["Embedded Systems", "Arduino", "ESP32", "Microcontrollers", "KiCad", "Electronic Design", "Sensors", "Actuators", "Hardware Prototyping"]
+    },
+    {
+      "id": "automation",
+      "title": "Automation",
+      "items": ["PLC Programming", "HMI", "Industrial Control Systems", "Modbus", "Profibus", "RS-232", "RS-485", "Serial Communication", "Industrial Communication Protocols"]
+    },
+    {
+      "id": "instrumentation",
+      "title": "Instrumentation / R&D",
+      "items": ["LabVIEW", "DAQ", "Scientific Instrumentation", "Precision Instrumentation", "Sensor Technology", "Signal Processing", "Experimental Validation", "Measurement Systems", "Laboratory Testing"]
+    },
+    {
+      "id": "ai-engineering",
+      "title": "AI Engineering / Research",
+      "items": ["AI Agents", "LLMs", "Model Context Protocol (MCP)", "Tool Calling", "Workflow Automation", "Scientific Workflow Automation", "Human-in-the-loop Systems", "OpenLCA", "Life Cycle Assessment (LCA)"]
+    }
+  ],
+  "languages.title": "Languages",
   "languages.spoken.title": "Spoken Languages",
   "languages.spoken.note": "Self-reported proficiency (CEFR).",
-  "languages.programming.title": "Programming & Tools",
-  "languages.programming.note": "Self-assessed, daily production vs. occasional use.",
+  "languages.disciplines.title": "Engineering Disciplines",
+  "languages.disciplines.note": "Core areas of practice.",
+  "disciplines": ["Mechatronics", "Instrumentation", "Simulation", "Embedded", "Automation", "R&D", "AI"],
   "experience.title": "Professional Experience",
   "experience": [
     {
@@ -279,85 +308,6 @@
       "levelLabel": "Basic",
       "percent": 30,
       "cefr": "A2"
-    }
-  ],
-  "programming": [
-    {
-      "name": "Python",
-      "level": "Daily production",
-      "years": 10,
-      "percent": 95,
-      "kind": "core"
-    },
-    {
-      "name": "MATLAB",
-      "level": "Frequent",
-      "years": 9,
-      "percent": 85,
-      "kind": "core"
-    },
-    {
-      "name": "LabVIEW",
-      "level": "Frequent",
-      "years": 7,
-      "percent": 75,
-      "kind": "core"
-    },
-    {
-      "name": "C / C++",
-      "level": "Working knowledge",
-      "years": 8,
-      "percent": 70,
-      "kind": "core"
-    },
-    {
-      "name": "C#",
-      "level": "Working knowledge",
-      "years": 3,
-      "percent": 55,
-      "kind": "other"
-    },
-    {
-      "name": "SQL",
-      "level": "Basics",
-      "years": 2,
-      "percent": 40,
-      "kind": "other"
-    },
-    {
-      "name": "Git / GitHub",
-      "level": "Daily",
-      "years": 10,
-      "percent": 90,
-      "kind": "tool"
-    },
-    {
-      "name": "TensorFlow / OpenCV",
-      "level": "Working",
-      "years": 4,
-      "percent": 65,
-      "kind": "tool"
-    },
-    {
-      "name": "COMSOL Multiphysics",
-      "level": "Working",
-      "years": 5,
-      "percent": 60,
-      "kind": "tool"
-    },
-    {
-      "name": "Solidworks",
-      "level": "Working",
-      "years": 10,
-      "percent": 60,
-      "kind": "tool"
-    },
-    {
-      "name": "KiCaD",
-      "level": "Working",
-      "years": 10,
-      "percent": 60,
-      "kind": "tool"
     }
   ]
 }
