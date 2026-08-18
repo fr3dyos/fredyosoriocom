@@ -19,6 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
 
   <script>
     tailwind.config = {
@@ -312,8 +313,8 @@
     <!-- ==================== HERO ==================== -->
     <section id="top" class="min-h-screen flex flex-col justify-center items-center px-gutter text-center relative overflow-hidden grid-overlay">
       <div class="scanline"></div>
-      <div class="relative z-10 max-w-4xl py-24">
-        <div class="hero-photo mb-12 mx-auto w-40 h-40 bg-surface-container-highest border-2 border-primary p-1 overflow-hidden shadow-[0_0_30px_var(--fx-shadow)]">
+      <div class="relative z-10 max-w-4xl py-24 stagger" data-stagger-animation="animate-fade-in-up">
+        <div class="hero-photo mb-12 mx-auto w-40 h-40 bg-surface-container-highest border-2 border-primary p-1 overflow-hidden shadow-[0_0_30px_var(--fx-shadow)] hover-scale gpu-accelerate">
           <img class="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-700" src="assets/img/photo.png" alt="" data-i18n-attr="alt:hero.photo.alt" onerror="if(this.dataset.fallbackApplied)return;this.dataset.fallbackApplied='1';this.replaceWith(makeMonogram('FGO'))" />
         </div>
         <h1 class="font-headline text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 tracking-tight">
@@ -348,30 +349,30 @@
     </section>
 
     <!-- ==================== ABOUT ==================== -->
-    <section id="about" class="py-xxl max-w-container-max mx-auto px-gutter">
+    <section id="about" class="py-xxl max-w-container-max mx-auto px-gutter reveal reveal-left">
       <div class="flex items-center gap-6 mb-16">
         <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="about.title">Professional Summary</h2>
         <div class="h-[1px] flex-grow bg-primary/20"></div>
       </div>
-      <div class="glass-panel p-8 md:p-12">
+      <div class="glass-panel p-8 md:p-12 hover-lift">
         <p class="text-on-surface/70 text-base md:text-lg leading-relaxed" data-i18n="about.body"></p>
       </div>
     </section>
 
     <!-- ==================== SKILLS ==================== -->
-    <section id="skills" class="py-xxl bg-surface-container-lowest border-y border-primary/10">
+    <section id="skills" class="py-xxl bg-surface-container-lowest border-y border-primary/10 reveal reveal-fade">
       <div class="max-w-container-max mx-auto px-gutter">
         <div class="flex items-center gap-6 mb-8">
           <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="skills.title">Core Skills</h2>
           <div class="h-[1px] flex-grow bg-primary/20"></div>
         </div>
         <p class="text-on-surface/60 max-w-3xl mb-12 text-base md:text-lg leading-relaxed" data-i18n="skills.intro"></p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="skills-list"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 stagger" id="skills-list" data-stagger-animation="animate-fade-in-up"></div>
       </div>
     </section>
 
     <!-- ==================== LANGUAGES ==================== -->
-    <section id="languages" class="py-xxl max-w-container-max mx-auto px-gutter">
+    <section id="languages" class="py-xxl max-w-container-max mx-auto px-gutter reveal reveal-right">
       <div class="flex items-center gap-6 mb-16">
         <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="languages.title">Languages</h2>
         <div class="h-[1px] flex-grow bg-primary/20"></div>
@@ -383,7 +384,7 @@
             <span data-i18n="languages.spoken.title">Spoken Languages</span>
           </h3>
           <p class="text-on-surface/40 text-xs mb-8" data-i18n="languages.spoken.note"></p>
-          <ul class="space-y-10" id="spoken-list"></ul>
+          <ul class="space-y-10 stagger" id="spoken-list" data-stagger-animation="animate-fade-in-left"></ul>
         </div>
         <div>
           <h3 class="font-headline text-sm uppercase tracking-[0.3em] text-primary mb-4 flex items-center gap-4">
@@ -391,20 +392,20 @@
             <span data-i18n="languages.disciplines.title">Engineering Disciplines</span>
           </h3>
           <p class="text-on-surface/40 text-xs mb-8" data-i18n="languages.disciplines.note"></p>
-          <ul class="flex flex-wrap gap-3" id="disciplines-list"></ul>
+          <ul class="flex flex-wrap gap-3 stagger" id="disciplines-list" data-stagger-animation="animate-fade-in-right"></ul>
         </div>
       </div>
     </section>
 
     <!-- ==================== RESEARCH GROUPS ==================== -->
-    <section id="research" class="py-xxl bg-surface-container-lowest border-y border-primary/10">
+    <section id="research" class="py-xxl bg-surface-container-lowest border-y border-primary/10 reveal reveal-scale">
       <div class="max-w-container-max mx-auto px-gutter">
         <div class="flex items-center gap-6 mb-8">
           <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="research.title">Research Groups &amp; Experience</h2>
           <div class="h-[1px] flex-grow bg-primary/20"></div>
         </div>
         <p class="text-on-surface/60 max-w-3xl mb-12 text-base md:text-lg leading-relaxed" data-i18n="research.intro"></p>
-        <ol class="relative ml-4 md:ml-12 border-l border-primary/20 pl-8 md:pl-16 space-y-10" id="research-list"></ol>
+        <ol class="relative ml-4 md:ml-12 border-l border-primary/20 pl-8 md:pl-16 space-y-10 stagger" id="research-list" data-stagger-animation="animate-fade-in-up"></ol>
 
         <div class="mt-20">
           <div class="flex items-center gap-6 mb-8">
@@ -414,94 +415,94 @@
             </h3>
             <div class="h-[1px] flex-grow bg-primary/20"></div>
           </div>
-          <ul class="grid grid-cols-1 md:grid-cols-2 gap-6" id="softskills-list"></ul>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 stagger" id="softskills-list" data-stagger-animation="animate-fade-in-up"></ul>
         </div>
       </div>
     </section>
 
     <!-- ==================== EXPERIENCE ==================== -->
-    <section id="experience" class="py-xxl bg-surface-container-lowest border-y border-primary/10">
+    <section id="experience" class="py-xxl bg-surface-container-lowest border-y border-primary/10 reveal reveal-left">
       <div class="max-w-container-max mx-auto px-gutter">
         <div class="flex items-center gap-6 mb-16">
           <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="experience.title">Professional Experience</h2>
           <div class="h-[1px] flex-grow bg-primary/20"></div>
         </div>
-        <ol class="relative ml-4 md:ml-12 border-l border-primary/20 pl-8 md:pl-16 space-y-16" id="experience-list"></ol>
+        <ol class="relative ml-4 md:ml-12 border-l border-primary/20 pl-8 md:pl-16 space-y-16 stagger" id="experience-list" data-stagger-animation="animate-fade-in-up"></ol>
       </div>
     </section>
 
     <!-- ==================== PROJECTS ==================== -->
-    <section id="projects" class="py-xxl max-w-container-max mx-auto px-gutter">
+    <section id="projects" class="py-xxl max-w-container-max mx-auto px-gutter reveal reveal-right">
       <div class="flex items-center gap-6 mb-8">
         <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="projects.title">Open-Source Projects</h2>
         <div class="h-[1px] flex-grow bg-primary/20"></div>
       </div>
       <p class="text-on-surface/50 text-sm mb-10 max-w-2xl" data-i18n="projects.note"></p>
-      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="project-list"></ul>
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger" id="project-list" data-stagger-animation="animate-scale-in"></ul>
     </section>
 
     <!-- ==================== PUBLICATIONS ==================== -->
-    <section id="publications" class="py-xxl bg-surface-container-lowest border-y border-primary/10">
+    <section id="publications" class="py-xxl bg-surface-container-lowest border-y border-primary/10 reveal reveal-scale">
       <div class="max-w-container-max mx-auto px-gutter">
         <div class="flex items-center gap-6 mb-8">
           <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="publications.title">Publications</h2>
           <div class="h-[1px] flex-grow bg-primary/20"></div>
         </div>
-        <p class="text-primary font-code text-xs mb-10 inline-block border border-primary/30 px-4 py-2" data-i18n="publications.count"></p>
-        <ol class="space-y-12" id="publications-list"></ol>
+        <p class="text-primary font-code text-xs mb-10 inline-block border border-primary/30 px-4 py-2 hover-lift" data-i18n="publications.count"></p>
+        <ol class="space-y-12 stagger" id="publications-list" data-stagger-animation="animate-fade-in-up"></ol>
         <p class="mt-12">
-          <a class="inline-flex items-center gap-3 border border-primary/40 px-6 py-3 font-code text-xs uppercase tracking-widest text-primary hover:bg-primary hover:text-white transition-all" href="http://lattes.cnpq.br/4643769519620655" rel="noopener" target="_blank" data-i18n="publications.lattesLabel">View full CV on Lattes</a>
+          <a class="inline-flex items-center gap-3 border border-primary/40 px-6 py-3 font-code text-xs uppercase tracking-widest text-primary hover:bg-primary hover:text-white transition-all hover-lift" href="http://lattes.cnpq.br/4643769519620655" rel="noopener" target="_blank" data-i18n="publications.lattesLabel">View full CV on Lattes</a>
         </p>
       </div>
     </section>
 
     <!-- ==================== PATENTS ==================== -->
-    <section id="patents" class="py-xxl max-w-container-max mx-auto px-gutter">
+    <section id="patents" class="py-xxl max-w-container-max mx-auto px-gutter reveal reveal-left">
       <div class="flex items-center gap-6 mb-8">
         <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="patents.title">Patents</h2>
         <div class="h-[1px] flex-grow bg-primary/20"></div>
       </div>
       <p class="text-on-surface/50 text-sm mb-10" data-i18n="patents.note"></p>
-      <ul class="space-y-12" id="patents-list"></ul>
+      <ul class="space-y-12 stagger" id="patents-list" data-stagger-animation="animate-fade-in-up"></ul>
     </section>
 
     <!-- ==================== EDUCATION ==================== -->
-    <section id="education" class="py-xxl bg-surface-container-lowest border-y border-primary/10">
+    <section id="education" class="py-xxl bg-surface-container-lowest border-y border-primary/10 reveal reveal-right">
       <div class="max-w-container-max mx-auto px-gutter">
         <div class="flex items-center gap-6 mb-16">
           <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="education.title">Education</h2>
           <div class="h-[1px] flex-grow bg-primary/20"></div>
         </div>
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-8" id="education-list"></ul>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 stagger" id="education-list" data-stagger-animation="animate-fade-in-up"></ul>
       </div>
     </section>
 
     <!-- ==================== CONTACT ==================== -->
-    <section id="contact" class="py-xxl max-w-container-max mx-auto px-gutter text-center">
+    <section id="contact" class="py-xxl max-w-container-max mx-auto px-gutter text-center reveal reveal-scale">
       <div class="flex items-center gap-6 mb-8 justify-center">
         <div class="h-[1px] flex-grow max-w-[120px] bg-primary/20"></div>
         <h2 class="font-headline text-3xl font-bold uppercase tracking-tighter italic" data-i18n="contact.title">Get in touch</h2>
         <div class="h-[1px] flex-grow max-w-[120px] bg-primary/20"></div>
       </div>
       <p class="text-on-surface/50 text-sm mb-12 max-w-2xl mx-auto" data-i18n="contact.body"></p>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto">
-        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group" href="mailto:ing.fredyosorio@gmail.com">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto stagger" data-stagger-animation="animate-scale-in">
+        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group hover-lift gpu-accelerate" href="mailto:ing.fredyosorio@gmail.com">
           <span class="w-12 h-12 border border-primary/50 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
           <span class="font-code text-[10px] uppercase tracking-widest text-on-surface/60 group-hover:text-primary" data-i18n="contact.email">Email me</span>
         </a>
-        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group" href="https://www.linkedin.com/in/fosorio70" rel="noopener" target="_blank">
+        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group hover-lift gpu-accelerate" href="https://www.linkedin.com/in/fosorio70" rel="noopener" target="_blank">
           <span class="w-12 h-12 border border-primary/50 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></span>
           <span class="font-code text-[10px] uppercase tracking-widest text-on-surface/60 group-hover:text-primary" data-i18n="contact.linkedin">LinkedIn</span>
         </a>
-        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group" href="http://lattes.cnpq.br/4643769519620655" rel="noopener" target="_blank">
+        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group hover-lift gpu-accelerate" href="http://lattes.cnpq.br/4643769519620655" rel="noopener" target="_blank">
           <span class="w-12 h-12 border border-primary/50 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></span>
           <span class="font-code text-[10px] uppercase tracking-widest text-on-surface/60 group-hover:text-primary" data-i18n="contact.lattes">Lattes CV</span>
         </a>
-        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group" href="https://github.com/fr3dyos" rel="noopener" target="_blank">
+        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group hover-lift gpu-accelerate" href="https://github.com/fr3dyos" rel="noopener" target="_blank">
           <span class="w-12 h-12 border border-primary/50 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all"><i class="fa-brands fa-github" aria-hidden="true"></i></span>
           <span class="font-code text-[10px] uppercase tracking-widest text-on-surface/60 group-hover:text-primary" data-i18n="contact.github">GitHub</span>
         </a>
-        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group" href="https://scholar.google.com/citations?user=UPffCNYAAAAJ" rel="noopener" target="_blank">
+        <a class="glass-panel neon-border p-6 flex flex-col items-center gap-4 group hover-lift gpu-accelerate" href="https://scholar.google.com/citations?user=UPffCNYAAAAJ" rel="noopener" target="_blank">
           <span class="w-12 h-12 border border-primary/50 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i></span>
           <span class="font-code text-[10px] uppercase tracking-widest text-on-surface/60 group-hover:text-primary" data-i18n="contact.scholar">Google Scholar</span>
         </a>
@@ -530,6 +531,7 @@
   </footer>
 
   <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/animations.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>
