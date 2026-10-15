@@ -143,6 +143,22 @@
   "experience.title": "Experiência Profissional",
   "experience": [
     {
+      "company": "Oceaneering",
+      "role": "Engenheiro Sênior de Robótica",
+      "place": "Rio de Janeiro, Brasil",
+      "period": "Out 2026 - Atual",
+      "domain": "P&D",
+      "bullets": [
+        "Desenvolvimento de tecnologia.",
+        "Validação e testes experimentais.",
+        "Prototipagem e desenvolvimento de conceito de prova.",
+        "Colaboração interdisciplinar com equipes de engenharia.",
+        "Coordenação de projetos e gestão de entregas técnicas.",
+        "Automação, eletrônica e instrumentação para sistemas subaquáticos.",
+        "Soluções de engenharia para sistemas subaquáticos complexos."
+      ]
+    },
+    {
       "company": "BioRen Technology",
       "role": "Líder de Desenvolvimento Tecnológico / Engenheiro de Pesquisa",
       "place": "Rio de Janeiro, Brasil",

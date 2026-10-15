@@ -143,6 +143,21 @@
   "experience.title": "Professional Experience",
   "experience": [
     {
+      "company": "Oceaneering",
+      "role": "Senior Robotics Engineer",
+      "place": "Rio de Janeiro, Brazil",
+      "period": "Oct 2026 - Current",
+      "domain": "R&D",
+      "bullets": [
+                "Technology development.",
+                "Experimental validation and testing.",
+                "Prototyping and proof-of-concept development.",
+                "Cross-disciplinary collaboration with engineering teams.",
+                "Project coordination and management of technical deliverables.",
+                "Automation, electronics, and instrumentation for subsea systems.",
+                "Engenhering solutions for complex subsea systems."       
+      ]
+    }, {
       "company": "BioRen Technology",
       "role": "Lead of Technology Development / Research Engineer",
       "place": "Rio de Janeiro, Brazil",

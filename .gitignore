@@ -82,3 +82,5 @@ credentials/
 *.pid.lock
 *.pdf
 
+.claude
+.mcp.json
