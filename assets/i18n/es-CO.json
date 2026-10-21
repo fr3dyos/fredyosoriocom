@@ -17,11 +17,11 @@
   "hero.tagline": "Ingeniero Mecatrónico · MSc en Ingeniería Mecánica · MBA en IA y Ciencia de Datos",
   "hero.location": "Río de Janeiro, Brasil",
   "hero.photo.alt": "Retrato de Fredy Osorio",
-  "hero.availability": "Disponible para posiciones senior y pleno",
+  "hero.availability": "Disponible para posiciones senior",
   "hero.cta.email": "Contáctame",
   "hero.cta.github": "Ver GitHub",
   "about.title": "Perfil Profesional",
-  "about.body": "Ingeniero senior y científico aplicado con más de 10 años de experiencia en el diseño, validación y escalamiento de sistemas técnicos complejos en entornos industriales y de investigación. Sólida formación en Python, con alcance en análisis de datos, visión por computador, pipelines de ML, automatización de flujos experimentales y herramientas de apoyo a la toma de decisiones. Trayectoria comprobada en la dirección de iniciativas de I+D, estructuración de flujos de datos, integración de fuentes heterogéneas y traducción de señales reales en resultados técnicos confiables. Combina rigor ingenieril, visión de producto y entrega práctica, un perfil apto para roles intensivos en datos que exigen resolución de problemas, sentido de pertenencia y trabajo interdisciplinario.",
+  "about.body": "Ingeniero senior y científico aplicado con más de 10 años de experiencia en el diseño, validación y escalamiento de sistemas técnicos complejos en entornos industriales y de investigación, ahora enfocado en I+D de robótica y sistemas subacuáticos. Sólida formación en Python, con alcance en análisis de datos, visión por computador, pipelines de ML, automatización de flujos experimentales y herramientas de apoyo a la toma de decisiones. Trayectoria comprobada en la dirección de iniciativas de I+D, estructuración de flujos de datos, integración de fuentes heterogéneas y traducción de señales reales en resultados técnicos confiables. Combina rigor ingenieril, visión de producto y entrega práctica, un perfil apto para roles intensivos en datos que exigen resolución de problemas, sentido de pertenencia y trabajo interdisciplinario.",
   "skills.title": "Competencias Principales",
   "skills.intro": "Ingeniero de I+D multidisciplinar que combina ingeniería experimental, instrumentación científica, simulación multifísica, sistemas embebidos y análisis asistido por IA.",
   "skills": [

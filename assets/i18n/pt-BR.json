@@ -17,11 +17,11 @@
   "hero.tagline": "Engenheiro Mecatrônico · MSc em Engenharia Mecânica · MBA em IA e Ciência de Dados",
   "hero.location": "Rio de Janeiro, Brasil",
   "hero.photo.alt": "Retrato de Fredy Osorio",
-  "hero.availability": "Aberto a vagas senior e pleno",
+  "hero.availability": "Aberto a vagas senior",
   "hero.cta.email": "Fale comigo",
   "hero.cta.github": "Ver GitHub",
   "about.title": "Resumo Profissional",
-  "about.body": "Engenheiro sênior e cientista aplicado com mais de 10 anos de experiência projetando, validando e escalando sistemas técnicos complexos em ambientes industriais e de pesquisa. Sólida formação em Python, abrangendo análise de dados, visão computacional, pipelines de ML, automação de fluxos experimentais e ferramentas de apoio à decisão. Histórico comprovado na liderança de iniciativas de P&D, estruturação de fluxos de dados, integração de fontes heterogêneas e tradução de sinais reais em resultados técnicos confiáveis. Combina rigor de engenharia, visão de produto e entrega prática — perfil adequado a funções intensivas em dados que exigem resolução de problemas, senso de dono e colaboração multifuncional.",
+  "about.body": "Engenheiro sênior e cientista aplicado com mais de 10 anos de experiência projetando, validando e escalando sistemas técnicos complexos em ambientes industriais e de pesquisa, agora focado em P&D de robótica e sistemas subaquáticos. Sólida formação em Python, abrangendo análise de dados, visão computacional, pipelines de ML, automação de fluxos experimentais e ferramentas de apoio à decisão. Histórico comprovado na liderança de iniciativas de P&D, estruturação de fluxos de dados, integração de fontes heterogêneas e tradução de sinais reais em resultados técnicos confiáveis. Combina rigor de engenharia, visão de produto e entrega prática — perfil adequado a funções intensivas em dados que exigem resolução de problemas, senso de dono e colaboração multifuncional.",
   "skills.title": "Competências Principais",
   "skills.intro": "Engenheiro de P&D multidisciplinar que combina engenharia experimental, instrumentação científica, simulação multifísica, sistemas embarcados e análise orientada por IA.",
   "skills": [
